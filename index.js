@@ -11,6 +11,6 @@ if(randomNumber1 > randomNumber2) {
     document.querySelector("h1").innerHTML = "<img class='victory' src='images/victory.png'>Player1 Wins!";
 } if(randomNumber2 > randomNumber1) {
     document.querySelector("h1").innerHTML = "Player2 Wins!<img class='victory' src='images/victory.png'>";
-} else {
+} if(randomNumber1 === randomNumber2) {
     document.querySelector("h1").innerHTML = "It's a Draw!";
 }
